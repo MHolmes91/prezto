@@ -10,4 +10,13 @@ if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
   source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
 fi
 
-# Customize to your needs...
+#Added Ant
+export ANT_HOME=$HOME/bin/ant
+export PATH=$PATH:$ANT_HOME/bin
+
+#Added local bin
+export PATH=$PATH:$HOME/bin
+
+export EDITOR='vim'
+export VISUAL='sublime'
+
